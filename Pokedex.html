@@ -7,13 +7,14 @@
     <title>Pokedex</title>
     <link rel="stylesheet" href="stilo.css">
     <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="/listagem.css">
 </head>
 
 <body>
     <div class="pokedex">
         <div class="pokecards">
 
-            <div class="poke_card eletric">
+            <div class="poke_card eletric open" id="pikachu-card">
                 <div class="card_top">
                     <div class="details">
                         <h2 class="name">Pikachu</h2>
@@ -43,7 +44,7 @@
                 </div>
             </div>
 
-            <div class="poke_card grass">
+            <div class="poke_card grass" id="bulbasaur-card">
                 <div class="card_top">
                     <div class="details">
                         <h2 class="name">Bulbasaur</h2>
@@ -73,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="poke_card fire">
+            <div class="poke_card fire" id="charmander-card">
                 <div class="card_top">
                     <div class="details">
                         <h2 class="name">Charmander</h2>
@@ -103,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="poke_card water">
+            <div class="poke_card water" id="squirtle-card">
                 <div class="card_top">
                     <div class="details">
                         <h2 class="name">Squirtle</h2>
@@ -133,7 +134,7 @@
                 </div>
             </div>
 
-            <div class="poke_card ghost">
+            <div class="poke_card ghost" id="gengar-card">
                 <div class="card_top">
                     <div class="details">
                         <h2 class="name">Gengar</h2>
@@ -163,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="poke_card dragon">
+            <div class="poke_card dragon" id="dragonite-card">
                 <div class="card_top">
                     <div class="details">
                         <h2 class="name">Dragonite</h2>
@@ -196,7 +197,7 @@
         </div>
         <div class="listagem">
             <ul>
-                <li class="pokemon" id="pikachu">
+                <li class="pokemon ativo" id="pikachu">
                     <img src="/img/cabeca-pikachu.png" alt="">
                     <span>Pikachu</span>
                 </li>
